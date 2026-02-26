@@ -66,4 +66,3 @@ npm run preview  # Preview Production Build
 
 ---
 
-**Made with 💙 for jambit GmbH**
