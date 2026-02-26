@@ -13,7 +13,7 @@ Ein vollständiges IoT + AI + 3D Web-Dashboard zur Optimierung des Stromverbrauc
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Features
 
@@ -34,7 +34,7 @@ Ein vollständiges IoT + AI + 3D Web-Dashboard zur Optimierung des Stromverbrauc
 
 ---
 
-## 🚀 Schnellstart (lokal)
+## Schnellstart (lokal)
 
 ### Voraussetzungen
 
@@ -109,7 +109,7 @@ VITE_OPENWEATHER_API_KEY=dein_api_key_hier
 
 ---
 
-## 🐞 Troubleshooting
+## Troubleshooting
 
 - **Backend-Service neu starten:**
 
@@ -216,7 +216,7 @@ jambit-power-hub/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Grid Data
 
@@ -368,7 +368,7 @@ curl -f https://energy.maazi.de
 
 ---
 
-## 📈 Projekt-Status
+## Projekt-Status
 
 | Feature               | Status | Zeitaufwand |
 | --------------------- | ------ | ----------- |
@@ -383,7 +383,7 @@ curl -f https://energy.maazi.de
 
 ---
 
-## 🚀 Nächste Schritte (Phase 2)
+## Nächste Schritte (Phase 2)
 
 Ideen für Erweiterungen:
 
@@ -611,11 +611,11 @@ Ideen für Erweiterungen:
 
 ---
 
-### Modul 5 – Price Timeline (PriceTimeline)
+### Modul 5 – Price Timeline (PriceTimeline - ist leider Sinnlos mit den momentanen API Daten zu arbeiten)
 
-**Status:** [erledigt] funktioniert schon ganz gut
+**Status:**
 
-**Was es zeigt:**
+**Was es zeigen soll:**
 
 - 24h Preisprognose für Strom
 - Optimale Zeiten für energieintensive Geräte
