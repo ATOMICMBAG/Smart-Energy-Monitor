@@ -13,7 +13,7 @@ Ein vollständiges IoT + AI + 3D Web-Dashboard zur Optimierung des Stromverbrauc
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Features
 
@@ -34,7 +34,7 @@ Ein vollständiges IoT + AI + 3D Web-Dashboard zur Optimierung des Stromverbrauc
 
 ---
 
-## 🚀 Schnellstart (lokal)
+## Schnellstart (lokal)
 
 ### Voraussetzungen
 
@@ -109,7 +109,7 @@ VITE_OPENWEATHER_API_KEY=dein_api_key_hier
 
 ---
 
-## 🐞 Troubleshooting
+## Troubleshooting
 
 - **Backend-Service neu starten:**
 
@@ -216,7 +216,7 @@ jambit-power-hub/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Grid Data
 
@@ -383,7 +383,7 @@ curl -f https://energy.maazi.de
 
 ---
 
-## 🚀 Nächste Schritte (Phase 2)
+## Nächste mögliche Schritte (Phase 2)
 
 Ideen für Erweiterungen:
 
@@ -691,3 +691,4 @@ Ideen für Erweiterungen:
 - Performance: Smooth Animations & Transitions
 
 ![Demo Screenshot](frontend/pic/energy.maazi.de.png)
+
