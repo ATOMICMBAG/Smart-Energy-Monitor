@@ -13,7 +13,7 @@ Ein vollständiges IoT + AI + 3D Web-Dashboard zur Optimierung des Stromverbrauc
 
 ---
 
-## Features
+## ✨ Features
 
 ### Core Features
 
@@ -34,7 +34,7 @@ Ein vollständiges IoT + AI + 3D Web-Dashboard zur Optimierung des Stromverbrauc
 
 ---
 
-## Schnellstart (lokal)
+## 🚀 Schnellstart (lokal)
 
 ### Voraussetzungen
 
@@ -109,7 +109,7 @@ VITE_OPENWEATHER_API_KEY=dein_api_key_hier
 
 ---
 
-## Troubleshooting
+## 🐞 Troubleshooting
 
 - **Backend-Service neu starten:**
 
@@ -216,7 +216,7 @@ jambit-power-hub/
 
 ---
 
-## API Endpoints
+## 🔌 API Endpoints
 
 ### Grid Data
 
@@ -383,7 +383,7 @@ curl -f https://energy.maazi.de
 
 ---
 
-## Nächste mögliche Schritte (Phase 2)
+## 🚀 Nächste Schritte (Phase 2)
 
 Ideen für Erweiterungen:
 
@@ -394,153 +394,6 @@ Ideen für Erweiterungen:
 - **Historical Data** – Langzeit-Analysen
 - **Mobile App** – React Native Version
 
----
-
-## Module im Detail
-
-### Modul 1 – Live Grid Status (GridStatus)
-
-**Status:** [erledigt] funktioniert schon ganz gut
-
-**Was es zeigt:**
-
-- Echtzeit Strompreis, CO₂-Intensität und Energiemix
-- Live Updates alle 15 Sekunden
-- Aktuelle Netz-Status-Informationen
-- Preisprognose für die nächsten 24 Stunden
-
-**Technisch:**
-
-- Backend: Python/Flask, SMARD.de API Integration
-- Frontend: React + TailwindCSS, Live Updates via Polling
-- Daten: Echte deutsche Stromnetz-Daten
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
----
-
-### Modul 2 – Energy Mix Visualisierung (EnergyMixChart)
-
-**Status:** [erledigt] funktioniert schon ganz gut
-
-**Was es zeigt:**
-
-- Deutsche Stromerzeugung nach Quelle (Solar, Wind, Kohle, Gas, etc.)
-- Interaktive Diagramme und Charts
-- Historische Daten und Trends
-- CO₂-Intensität pro Energiequelle
-
-**Technisch:**
-
-- Backend: Python/Flask, Datenverarbeitung
-- Frontend: React + Chart.js, Interaktive Visualisierungen
-- Daten: Echte deutsche Stromerzeugungs-Daten
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
----
-
-### Modul 3 – 3D Smart Home (House3D)
-
-**Status:** [erledigt] funktioniert schon ganz gut
-
-**Was es zeigt:**
-
-- Interaktives Three.js Hausmodell
-- 3D-Visualisierung des Smart Homes
-- Geräte-Platzierung und -Steuerung
-- Energie-Optimierung im 3D-Raum
-
-**Technisch:**
-
-- Backend: Python/Flask, Datenverarbeitung
-- Frontend: React + Three.js, 3D-Visualisierungen
-- Performance: 60fps, browser-nativ
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
----
-
-### Modul 4 – AI Assistant (SmartAssistant)
-
-**Status:** [erledigt] funktioniert schon ganz gut
-
-**Was es zeigt:**
-
-- Hybrid AI: 95% Rule-Based + 5% Ollama für komplexe Fragen
-- Schnelle Antworten (<50ms) für Standard-Anfragen
-- Intelligente Fallbacks für komplexe Fragen
-- Energie-Optimierungs-Empfehlungen
-
-**Technisch:**
-
-- Backend: Python/Flask, Ollama Integration
-- Frontend: React + TailwindCSS, Chat-Interface
-- Performance: Schnelle Antwortzeiten, intelligente Fallbacks
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
----
-
-### Modul 5 – Price Timeline (PriceTimeline)
-
-**Status:** [erledigt] funktioniert schon ganz gut
-
-**Was es zeigt:**
-
-- 24h Preisprognose für Strom
-- Optimale Zeiten für energieintensive Geräte
-- Historische Preis-Trends
-- Kosten-Analyse und -Prognose
-
-**Technisch:**
-
-- Backend: Python/Flask, Preisprognose-Algorithmen
-- Frontend: React + Chart.js, Interaktive Zeitachsen
-- Daten: Echte deutsche Strompreis-Daten
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
----
-
-### Modul 6 – Settings Panel (SettingsPanel)
-
-**Status:** [erledigt] funktioniert schon ganz gut
-
-**Was es zeigt:**
-
-- Professional Settings Panel
-- Theme Switcher (Dark/Light Mode)
-- View Modi und Anzeige-Optionen
-- User-Präferenzen und -Einstellungen
-
-**Technisch:**
-
-- Frontend: React + TailwindCSS, Responsive Design
-- Features: Theme Switcher, View Modi, User-Einstellungen
-- Performance: Smooth Animations & Transitions
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
----
-
-### Modul 7 – Onboarding Tour (OnboardingTour)
-
-**Status:** [erledigt] funktioniert schon ganz gut
-
-**Was es zeigt:**
-
-- Interaktive Einführung für neue User
-- Schritt-für-Schritt Anleitung
-- Feature-Highlights und -Erklärungen
-- User-Engagement und -Retention
-
-**Technisch:**
-
-- Frontend: React + TailwindCSS, Interaktive Touren
-- Features: Schritt-für-Schritt Anleitung, Feature-Highlights
-- Performance: Smooth Animations & Transitions
-
 ![Demo Screenshot](frontend/pic/energy.maazi.de.png)
 
 ---
@@ -564,8 +417,6 @@ Ideen für Erweiterungen:
 - Frontend: React + TailwindCSS, Live Updates via Polling
 - Daten: Echte deutsche Stromnetz-Daten
 
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
 ---
 
 ### Modul 2 – Energy Mix Visualisierung (EnergyMixChart)
@@ -584,8 +435,6 @@ Ideen für Erweiterungen:
 - Backend: Python/Flask, Datenverarbeitung
 - Frontend: React + Chart.js, Interaktive Visualisierungen
 - Daten: Echte deutsche Stromerzeugungs-Daten
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
 
 ---
 
@@ -606,8 +455,6 @@ Ideen für Erweiterungen:
 - Frontend: React + Three.js, 3D-Visualisierungen
 - Performance: 60fps, browser-nativ
 
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
 ---
 
 ### Modul 4 – AI Assistant (SmartAssistant)
@@ -626,8 +473,6 @@ Ideen für Erweiterungen:
 - Backend: Python/Flask, Ollama Integration
 - Frontend: React + TailwindCSS, Chat-Interface
 - Performance: Schnelle Antwortzeiten, intelligente Fallbacks
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
 
 ---
 
@@ -648,8 +493,6 @@ Ideen für Erweiterungen:
 - Frontend: React + Chart.js, Interaktive Zeitachsen
 - Daten: Echte deutsche Strompreis-Daten
 
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
-
 ---
 
 ### Modul 6 – Settings Panel (SettingsPanel)
@@ -668,8 +511,6 @@ Ideen für Erweiterungen:
 - Frontend: React + TailwindCSS, Responsive Design
 - Features: Theme Switcher, View Modi, User-Einstellungen
 - Performance: Smooth Animations & Transitions
-
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
 
 ---
 
@@ -690,5 +531,137 @@ Ideen für Erweiterungen:
 - Features: Schritt-für-Schritt Anleitung, Feature-Highlights
 - Performance: Smooth Animations & Transitions
 
-![Demo Screenshot](frontend/pic/energy.maazi.de.png)
+---
 
+## Module im Detail
+
+### Modul 1 – Live Grid Status (GridStatus)
+
+**Status:** [erledigt] funktioniert schon ganz gut
+
+**Was es zeigt:**
+
+- Echtzeit Strompreis, CO₂-Intensität und Energiemix
+- Live Updates alle 15 Sekunden
+- Aktuelle Netz-Status-Informationen
+- Preisprognose für die nächsten 24 Stunden
+
+**Technisch:**
+
+- Backend: Python/Flask, SMARD.de API Integration
+- Frontend: React + TailwindCSS, Live Updates via Polling
+- Daten: Echte deutsche Stromnetz-Daten
+
+---
+
+### Modul 2 – Energy Mix Visualisierung (EnergyMixChart)
+
+**Status:** [erledigt] funktioniert schon ganz gut
+
+**Was es zeigt:**
+
+- Deutsche Stromerzeugung nach Quelle (Solar, Wind, Kohle, Gas, etc.)
+- Interaktive Diagramme und Charts
+- Historische Daten und Trends
+- CO₂-Intensität pro Energiequelle
+
+**Technisch:**
+
+- Backend: Python/Flask, Datenverarbeitung
+- Frontend: React + Chart.js, Interaktive Visualisierungen
+- Daten: Echte deutsche Stromerzeugungs-Daten
+
+---
+
+### Modul 3 – 3D Smart Home (House3D)
+
+**Status:** [erledigt] funktioniert schon ganz gut
+
+**Was es zeigt:**
+
+- Interaktives Three.js Hausmodell
+- 3D-Visualisierung des Smart Homes
+- Geräte-Platzierung und -Steuerung
+- Energie-Optimierung im 3D-Raum
+
+**Technisch:**
+
+- Backend: Python/Flask, Datenverarbeitung
+- Frontend: React + Three.js, 3D-Visualisierungen
+- Performance: 60fps, browser-nativ
+
+---
+
+### Modul 4 – AI Assistant (SmartAssistant)
+
+**Status:** [erledigt] funktioniert schon ganz gut
+
+**Was es zeigt:**
+
+- Hybrid AI: 95% Rule-Based + 5% Ollama für komplexe Fragen
+- Schnelle Antworten (<50ms) für Standard-Anfragen
+- Intelligente Fallbacks für komplexe Fragen
+- Energie-Optimierungs-Empfehlungen
+
+**Technisch:**
+
+- Backend: Python/Flask, Ollama Integration
+- Frontend: React + TailwindCSS, Chat-Interface
+- Performance: Schnelle Antwortzeiten, intelligente Fallbacks
+
+---
+
+### Modul 5 – Price Timeline (PriceTimeline)
+
+**Status:** [erledigt] funktioniert schon ganz gut
+
+**Was es zeigt:**
+
+- 24h Preisprognose für Strom
+- Optimale Zeiten für energieintensive Geräte
+- Historische Preis-Trends
+- Kosten-Analyse und -Prognose
+
+**Technisch:**
+
+- Backend: Python/Flask, Preisprognose-Algorithmen
+- Frontend: React + Chart.js, Interaktive Zeitachsen
+- Daten: Echte deutsche Strompreis-Daten
+
+---
+
+### Modul 6 – Settings Panel (SettingsPanel)
+
+**Status:** [erledigt] funktioniert schon ganz gut
+
+**Was es zeigt:**
+
+- Professional Settings Panel
+- Theme Switcher (Dark/Light Mode)
+- View Modi und Anzeige-Optionen
+- User-Präferenzen und -Einstellungen
+
+**Technisch:**
+
+- Frontend: React + TailwindCSS, Responsive Design
+- Features: Theme Switcher, View Modi, User-Einstellungen
+- Performance: Smooth Animations & Transitions
+
+---
+
+### Modul 7 – Onboarding Tour (OnboardingTour)
+
+**Status:** [erledigt] funktioniert schon ganz gut
+
+**Was es zeigt:**
+
+- Interaktive Einführung für neue User
+- Schritt-für-Schritt Anleitung
+- Feature-Highlights und -Erklärungen
+- User-Engagement und -Retention
+
+**Technisch:**
+
+- Frontend: React + TailwindCSS, Interaktive Touren
+- Features: Schritt-für-Schritt Anleitung, Feature-Highlights
+- Performance: Smooth Animations & Transitions
